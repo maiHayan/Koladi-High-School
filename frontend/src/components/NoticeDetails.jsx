@@ -12,7 +12,7 @@ import { jsPDF } from "jspdf";
    BACKEND API
 ========================================================= */
 
-const API_URL = "http://localhost:5000/api/notices";
+const API_URL = "https://koladi-high-school-1.onrender.com/api/notices";
 
 
 /* =========================================================

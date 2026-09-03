@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/academics";
+  "https://koladi-high-school-1.onrender.com/api/academics";
 
 const BACKEND_URL =
-  "http://localhost:5000";
+  "https://koladi-high-school-1.onrender.com";
 
 
 /* =========================================================

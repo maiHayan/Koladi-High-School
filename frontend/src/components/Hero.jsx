@@ -11,7 +11,7 @@ import heroImage from "../assets/Ing1.jpg";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/home";
+  "https://koladi-high-school-1.onrender.com/api/home";
 
 
 /* =========================================================

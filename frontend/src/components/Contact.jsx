@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/contact";
+  "https://koladi-high-school-1.onrender.com/api/contact";
 
 
 /* =========================================================

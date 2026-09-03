@@ -6,10 +6,10 @@ import { useEffect, useState } from "react";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/gallery";
+  "https://koladi-high-school-1.onrender.com/api/gallery";
 
 const BACKEND_URL =
-  "http://localhost:5000";
+  "https://koladi-high-school-1.onrender.com";
 
 
 /* =========================================================

@@ -14,7 +14,7 @@ import logo from "../assets/Logo.png";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/footer";
+  "https://koladi-high-school-1.onrender.com/api/footer";
 
 
 /* =========================================================
