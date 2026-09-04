@@ -4,7 +4,7 @@
 ========================================================= */
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate,
@@ -220,7 +220,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <HashRouter>
 
       <ScrollManager />
 
@@ -538,7 +538,7 @@ function App() {
 
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
 
   );
 
@@ -550,3 +550,4 @@ function App() {
 ========================================================= */
 
 export default App;
+
