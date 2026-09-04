@@ -14,7 +14,7 @@ import logo from "../src/assets/Logo.png";
 ========================================================= */
 
 const API_URL =
-  "http://localhost:5000/api/admin/login";
+  "https://koladi-high-school-1.onrender.com/api/admin/login";
 
 
 /* =========================================================
