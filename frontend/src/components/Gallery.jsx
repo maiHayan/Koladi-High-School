@@ -65,7 +65,7 @@ function Gallery() {
       imageUrl.startsWith("/gallery/")
     ) {
 
-      return imageUrl;
+      return `${import.meta.env.BASE_URL}${imageUrl.replace(/^\/+/, "")}`;
 
     }
 
@@ -79,12 +79,12 @@ function Gallery() {
       imageUrl.startsWith("https://")
     ) {
 
-      return imageUrl;
+      return `${import.meta.env.BASE_URL}${imageUrl.replace(/^\/+/, "")}`;
 
     }
 
 
-    return imageUrl;
+    return `${import.meta.env.BASE_URL}${imageUrl.replace(/^\/+/, "")}`;
 
   };
 
@@ -427,3 +427,4 @@ function Gallery() {
 
 
 export default Gallery;
+

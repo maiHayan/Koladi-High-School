@@ -45,7 +45,7 @@ function StudentAchievementDetails() {
       return `${BACKEND_URL}${image}`;
     }
 
-    return encodeURI(image);
+    if (image.startsWith("http://") || image.startsWith("https://")) { return encodeURI(image); } return `${import.meta.env.BASE_URL}${image.replace(/^\/+/, "")}`;
 
   };
 
@@ -524,3 +524,4 @@ function StudentAchievementDetails() {
 
 
 export default StudentAchievementDetails;
+

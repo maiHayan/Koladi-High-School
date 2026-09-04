@@ -33,7 +33,7 @@ function PracticalLearningDetails() {
       return `${BACKEND_URL}${image}`;
     }
 
-    return image;
+    if (image.startsWith("http://") || image.startsWith("https://")) { return image; } return `${import.meta.env.BASE_URL}${image.replace(/^\/+/, "")}`;
 
   };
 
@@ -585,3 +585,4 @@ function PracticalLearningDetails() {
 
 
 export default PracticalLearningDetails;
+

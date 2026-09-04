@@ -44,7 +44,7 @@ function QualityEducationDetails() {
       return `${BACKEND_URL}${image}`;
     }
 
-    return encodeURI(image);
+    if (image.startsWith("http://") || image.startsWith("https://")) { return encodeURI(image); } return `${import.meta.env.BASE_URL}${image.replace(/^\/+/, "")}`;
   };
 
 
@@ -364,3 +364,4 @@ function QualityEducationDetails() {
 
 
 export default QualityEducationDetails;
+
